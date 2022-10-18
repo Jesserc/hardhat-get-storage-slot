@@ -1,0 +1,589 @@
+{
+    "contracts": {
+        "/home/jesserc/Desktop/Development/hardhat-slot/contracts/DataStore.sol": {
+            "DataStore": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "stateMutability": "nonpayable",
+                        "type": "constructor"
+                    }
+                ],
+                "devdoc": {
+                    "kind": "dev",
+                    "methods": {},
+                    "version": 1
+                },
+                "evm": {
+                    "bytecode": {
+                        "functionDebugData": {
+                            "@_25": {
+                                "entryPoint": null,
+                                "id": 25,
+                                "parameterSlots": 0,
+                                "returnSlots": 0
+                            },
+                            "@returnDataSlot_33": {
+                                "entryPoint": null,
+                                "id": 33,
+                                "parameterSlots": 0,
+                                "returnSlots": 1
+                            }
+                        },
+                        "generatedSources": [],
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b507f7308a105ec513b067ae6895c7950ce5d8de71db04aaaca26b6820a2eaef596d1600f55603f8060416000396000f3fe6080604052600080fdfea2646970667358221220a6269907e4b585276587862d0749186c1abad6278dea04cc229fffde4ccfbc7364736f6c63430008110033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH32 0x7308A105EC513B067AE6895C7950CE5D8DE71DB04AAACA26B6820A2EAEF596D1 PUSH1 0xF SSTORE PUSH1 0x3F DUP1 PUSH1 0x41 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA6 0x26 SWAP10 SMOD 0xE4 0xB5 DUP6 0x27 PUSH6 0x87862D074918 PUSH13 0x1ABAD6278DEA04CC229FFFDE4C 0xCF 0xBC PUSH20 0x64736F6C63430008110033000000000000000000 ",
+                        "sourceMap": "58:287:0:-:0;;;164:71;;;;;;;;;-1:-1:-1;207:25:0;186:20;:46;58:287;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "functionDebugData": {},
+                        "generatedSources": [],
+                        "immutableReferences": {},
+                        "linkReferences": {},
+                        "object": "6080604052600080fdfea2646970667358221220a6269907e4b585276587862d0749186c1abad6278dea04cc229fffde4ccfbc7364736f6c63430008110033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA6 0x26 SWAP10 SMOD 0xE4 0xB5 DUP6 0x27 PUSH6 0x87862D074918 PUSH13 0x1ABAD6278DEA04CC229FFFDE4C 0xCF 0xBC PUSH20 0x64736F6C63430008110033000000000000000000 ",
+                        "sourceMap": "58:287:0:-:0;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "12600",
+                            "executionCost": "22172",
+                            "totalCost": "34772"
+                        },
+                        "internal": {
+                            "returnDataSlot()": "infinite"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/jesserc/Desktop/Development/hardhat-slot/contracts/DataStore.sol\":\"DataStore\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jesserc/Desktop/Development/hardhat-slot/contracts/DataStore.sol\":{\"keccak256\":\"0xcaddf187c8b21cbdb049cf6d6ba8badcd187cf98ae71474c9933e38696046361\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e928719a6d2d887fa9425b5fca39c561c27cee426233a6b203a22742a12bdf40\",\"dweb:/ipfs/Qmbq7uq8m1x967mdQBoK5mL8zcwgKMZrnaFVFSLiyqs4Vt\"]}},\"version\":1}",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 5,
+                            "contract": "/home/jesserc/Desktop/Development/hardhat-slot/contracts/DataStore.sol:DataStore",
+                            "label": "_____gap_____",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_array(t_uint256)50_storage"
+                        }
+                    ],
+                    "types": {
+                        "t_array(t_uint256)50_storage": {
+                            "base": "t_uint256",
+                            "encoding": "inplace",
+                            "label": "uint256[50]",
+                            "numberOfBytes": "1600"
+                        },
+                        "t_uint256": {
+                            "encoding": "inplace",
+                            "label": "uint256",
+                            "numberOfBytes": "32"
+                        }
+                    }
+                },
+                "userdoc": {
+                    "kind": "user",
+                    "methods": {},
+                    "version": 1
+                }
+            }
+        }
+    },
+    "errors": [
+        {
+            "component": "general",
+            "errorCode": "2462",
+            "formattedMessage": "Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.\n  --> /home/jesserc/Desktop/Development/hardhat-slot/contracts/DataStore.sol:12:1:\n   |\n12 | constructor() public{\n   | ^ (Relevant source part starts here and spans across multiple lines).\n\n",
+            "message": "Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.",
+            "severity": "warning",
+            "sourceLocation": {
+                "end": 235,
+                "file": "/home/jesserc/Desktop/Development/hardhat-slot/contracts/DataStore.sol",
+                "start": 164
+            },
+            "type": "Warning"
+        },
+        {
+            "component": "general",
+            "errorCode": "2018",
+            "formattedMessage": "Warning: Function state mutability can be restricted to pure\n  --> /home/jesserc/Desktop/Development/hardhat-slot/contracts/DataStore.sol:16:1:\n   |\n16 | function returnDataSlot() internal view returns(Data storage d){\n   | ^ (Relevant source part starts here and spans across multiple lines).\n\n",
+            "message": "Function state mutability can be restricted to pure",
+            "severity": "warning",
+            "sourceLocation": {
+                "end": 342,
+                "file": "/home/jesserc/Desktop/Development/hardhat-slot/contracts/DataStore.sol",
+                "start": 237
+            },
+            "type": "Warning"
+        }
+    ],
+    "sources": {
+        "/home/jesserc/Desktop/Development/hardhat-slot/contracts/DataStore.sol": {
+            "ast": {
+                "absolutePath": "/home/jesserc/Desktop/Development/hardhat-slot/contracts/DataStore.sol",
+                "exportedSymbols": {
+                    "DataStore": [
+                        34
+                    ]
+                },
+                "id": 35,
+                "license": "MIT",
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.8",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "32:23:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "canonicalName": "DataStore",
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "fullyImplemented": true,
+                        "id": 34,
+                        "linearizedBaseContracts": [
+                            34
+                        ],
+                        "name": "DataStore",
+                        "nameLocation": "67:9:0",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "id": 5,
+                                "mutability": "mutable",
+                                "name": "_____gap_____",
+                                "nameLocation": "90:13:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 34,
+                                "src": "78:25:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_uint256_$50_storage",
+                                    "typeString": "uint256[50]"
+                                },
+                                "typeName": {
+                                    "baseType": {
+                                        "id": 2,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "78:7:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 4,
+                                    "length": {
+                                        "hexValue": "3530",
+                                        "id": 3,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "number",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "86:2:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_rational_50_by_1",
+                                            "typeString": "int_const 50"
+                                        },
+                                        "value": "50"
+                                    },
+                                    "nodeType": "ArrayTypeName",
+                                    "src": "78:11:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_uint256_$50_storage_ptr",
+                                        "typeString": "uint256[50]"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "canonicalName": "DataStore.Data",
+                                "id": 13,
+                                "members": [
+                                    {
+                                        "constant": false,
+                                        "id": 8,
+                                        "mutability": "mutable",
+                                        "name": "numbers",
+                                        "nameLocation": "128:7:0",
+                                        "nodeType": "VariableDeclaration",
+                                        "scope": 13,
+                                        "src": "118:17:0",
+                                        "stateVariable": false,
+                                        "storageLocation": "default",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                                            "typeString": "uint256[]"
+                                        },
+                                        "typeName": {
+                                            "baseType": {
+                                                "id": 6,
+                                                "name": "uint256",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "118:7:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            },
+                                            "id": 7,
+                                            "nodeType": "ArrayTypeName",
+                                            "src": "118:9:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                                                "typeString": "uint256[]"
+                                            }
+                                        },
+                                        "visibility": "internal"
+                                    },
+                                    {
+                                        "constant": false,
+                                        "id": 10,
+                                        "mutability": "mutable",
+                                        "name": "in__",
+                                        "nameLocation": "142:4:0",
+                                        "nodeType": "VariableDeclaration",
+                                        "scope": 13,
+                                        "src": "137:9:0",
+                                        "stateVariable": false,
+                                        "storageLocation": "default",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_bool",
+                                            "typeString": "bool"
+                                        },
+                                        "typeName": {
+                                            "id": 9,
+                                            "name": "bool",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "137:4:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bool",
+                                                "typeString": "bool"
+                                            }
+                                        },
+                                        "visibility": "internal"
+                                    },
+                                    {
+                                        "constant": false,
+                                        "id": 12,
+                                        "mutability": "mutable",
+                                        "name": "key",
+                                        "nameLocation": "156:3:0",
+                                        "nodeType": "VariableDeclaration",
+                                        "scope": 13,
+                                        "src": "148:11:0",
+                                        "stateVariable": false,
+                                        "storageLocation": "default",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_bytes32",
+                                            "typeString": "bytes32"
+                                        },
+                                        "typeName": {
+                                            "id": 11,
+                                            "name": "bytes32",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "148:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bytes32",
+                                                "typeString": "bytes32"
+                                            }
+                                        },
+                                        "visibility": "internal"
+                                    }
+                                ],
+                                "name": "Data",
+                                "nameLocation": "112:4:0",
+                                "nodeType": "StructDefinition",
+                                "scope": 34,
+                                "src": "105:57:0",
+                                "visibility": "public"
+                            },
+                            {
+                                "body": {
+                                    "id": 24,
+                                    "nodeType": "Block",
+                                    "src": "184:51:0",
+                                    "statements": [
+                                        {
+                                            "expression": {
+                                                "id": 22,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "expression": {
+                                                        "arguments": [],
+                                                        "expression": {
+                                                            "argumentTypes": [],
+                                                            "id": 16,
+                                                            "name": "returnDataSlot",
+                                                            "nodeType": "Identifier",
+                                                            "overloadedDeclarations": [],
+                                                            "referencedDeclaration": 33,
+                                                            "src": "186:14:0",
+                                                            "typeDescriptions": {
+                                                                "typeIdentifier": "t_function_internal_view$__$returns$_t_struct$_Data_$13_storage_ptr_$",
+                                                                "typeString": "function () view returns (struct DataStore.Data storage pointer)"
+                                                            }
+                                                        },
+                                                        "id": 17,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": false,
+                                                        "kind": "functionCall",
+                                                        "lValueRequested": false,
+                                                        "nameLocations": [],
+                                                        "names": [],
+                                                        "nodeType": "FunctionCall",
+                                                        "src": "186:16:0",
+                                                        "tryCall": false,
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_struct$_Data_$13_storage_ptr",
+                                                            "typeString": "struct DataStore.Data storage pointer"
+                                                        }
+                                                    },
+                                                    "id": 18,
+                                                    "isConstant": false,
+                                                    "isLValue": true,
+                                                    "isPure": false,
+                                                    "lValueRequested": true,
+                                                    "memberLocation": "203:3:0",
+                                                    "memberName": "key",
+                                                    "nodeType": "MemberAccess",
+                                                    "referencedDeclaration": 12,
+                                                    "src": "186:20:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_bytes32",
+                                                        "typeString": "bytes32"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "arguments": [
+                                                        {
+                                                            "hexValue": "59455020464f554e44204954",
+                                                            "id": 20,
+                                                            "isConstant": false,
+                                                            "isLValue": false,
+                                                            "isPure": true,
+                                                            "kind": "string",
+                                                            "lValueRequested": false,
+                                                            "nodeType": "Literal",
+                                                            "src": "217:14:0",
+                                                            "typeDescriptions": {
+                                                                "typeIdentifier": "t_stringliteral_7308a105ec513b067ae6895c7950ce5d8de71db04aaaca26b6820a2eaef596d1",
+                                                                "typeString": "literal_string \"YEP FOUND IT\""
+                                                            },
+                                                            "value": "YEP FOUND IT"
+                                                        }
+                                                    ],
+                                                    "expression": {
+                                                        "argumentTypes": [
+                                                            {
+                                                                "typeIdentifier": "t_stringliteral_7308a105ec513b067ae6895c7950ce5d8de71db04aaaca26b6820a2eaef596d1",
+                                                                "typeString": "literal_string \"YEP FOUND IT\""
+                                                            }
+                                                        ],
+                                                        "id": 19,
+                                                        "name": "keccak256",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 4294967288,
+                                                        "src": "207:9:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
+                                                            "typeString": "function (bytes memory) pure returns (bytes32)"
+                                                        }
+                                                    },
+                                                    "id": 21,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": true,
+                                                    "kind": "functionCall",
+                                                    "lValueRequested": false,
+                                                    "nameLocations": [],
+                                                    "names": [],
+                                                    "nodeType": "FunctionCall",
+                                                    "src": "207:25:0",
+                                                    "tryCall": false,
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_bytes32",
+                                                        "typeString": "bytes32"
+                                                    }
+                                                },
+                                                "src": "186:46:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_bytes32",
+                                                    "typeString": "bytes32"
+                                                }
+                                            },
+                                            "id": 23,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "186:46:0"
+                                        }
+                                    ]
+                                },
+                                "id": 25,
+                                "implemented": true,
+                                "kind": "constructor",
+                                "modifiers": [],
+                                "name": "",
+                                "nameLocation": "-1:-1:-1",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 14,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "175:2:0"
+                                },
+                                "returnParameters": {
+                                    "id": 15,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "184:0:0"
+                                },
+                                "scope": 34,
+                                "src": "164:71:0",
+                                "stateMutability": "nonpayable",
+                                "virtual": false,
+                                "visibility": "public"
+                            },
+                            {
+                                "body": {
+                                    "id": 32,
+                                    "nodeType": "Block",
+                                    "src": "300:42:0",
+                                    "statements": [
+                                        {
+                                            "AST": {
+                                                "nodeType": "YulBlock",
+                                                "src": "314:26:0",
+                                                "statements": [
+                                                    {
+                                                        "nodeType": "YulAssignment",
+                                                        "src": "324:10:0",
+                                                        "value": {
+                                                            "kind": "number",
+                                                            "nodeType": "YulLiteral",
+                                                            "src": "332:2:0",
+                                                            "type": "",
+                                                            "value": "13"
+                                                        },
+                                                        "variableNames": [
+                                                            {
+                                                                "name": "d.slot",
+                                                                "nodeType": "YulIdentifier",
+                                                                "src": "324:6:0"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            "evmVersion": "london",
+                                            "externalReferences": [
+                                                {
+                                                    "declaration": 29,
+                                                    "isOffset": false,
+                                                    "isSlot": true,
+                                                    "src": "324:6:0",
+                                                    "suffix": "slot",
+                                                    "valueSize": 1
+                                                }
+                                            ],
+                                            "id": 31,
+                                            "nodeType": "InlineAssembly",
+                                            "src": "306:34:0"
+                                        }
+                                    ]
+                                },
+                                "id": 33,
+                                "implemented": true,
+                                "kind": "function",
+                                "modifiers": [],
+                                "name": "returnDataSlot",
+                                "nameLocation": "246:14:0",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 26,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "260:2:0"
+                                },
+                                "returnParameters": {
+                                    "id": 30,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [
+                                        {
+                                            "constant": false,
+                                            "id": 29,
+                                            "mutability": "mutable",
+                                            "name": "d",
+                                            "nameLocation": "298:1:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 33,
+                                            "src": "285:14:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "storage",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_struct$_Data_$13_storage_ptr",
+                                                "typeString": "struct DataStore.Data"
+                                            },
+                                            "typeName": {
+                                                "id": 28,
+                                                "nodeType": "UserDefinedTypeName",
+                                                "pathNode": {
+                                                    "id": 27,
+                                                    "name": "Data",
+                                                    "nameLocations": [
+                                                        "285:4:0"
+                                                    ],
+                                                    "nodeType": "IdentifierPath",
+                                                    "referencedDeclaration": 13,
+                                                    "src": "285:4:0"
+                                                },
+                                                "referencedDeclaration": 13,
+                                                "src": "285:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Data_$13_storage_ptr",
+                                                    "typeString": "struct DataStore.Data"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "src": "284:16:0"
+                                },
+                                "scope": 34,
+                                "src": "237:105:0",
+                                "stateMutability": "view",
+                                "virtual": false,
+                                "visibility": "internal"
+                            }
+                        ],
+                        "scope": 35,
+                        "src": "58:287:0",
+                        "usedErrors": []
+                    }
+                ],
+                "src": "32:313:0"
+            },
+            "id": 0
+        }
+    }
+}
