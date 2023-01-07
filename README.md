@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Contract Storage Slot Reader
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Welcome to Contract Storage Slot Reader!
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+This repository is a practical example of reading the storage of Ethereum contracts, including private variables, using Hardhat.
